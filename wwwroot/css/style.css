@@ -1,0 +1,44 @@
+.upLoade {
+    background: #ff0000;
+     
+    margin-bottom: 72px;
+    text-align: center;
+    position: relative;  
+    font-size: 100%;
+    font: inherit;
+    box-sizing: inherit;
+    letter-spacing: .3px;
+    direction: ltr;
+    color: #161616;
+    width: 300px;  
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.downloader__btn.active, .uploader__btn.active {
+    background-color: #e5322d;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    box-sizing: border-box;
+    background: #e5322d;
+    background-color: rgb(229, 50, 45);
+    padding: 24px 56px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    vertical-align: middle;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: all .1s linear;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.14);
+    letter-spacing: .3px;
+    direction: ltr;
+    text-align: center;
+    order: 1;
+    max-width: 60vw;
+    margin-left: 600px;
+}
+}

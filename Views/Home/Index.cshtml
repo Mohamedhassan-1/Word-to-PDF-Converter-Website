@@ -1,0 +1,26 @@
+﻿@model converterWebsite.Models.ConverterVM
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Converter Website</title>    
+</head>
+<body style="background:#f3f0ec; " >
+    <div style="padding: 6px 24px 30px; color: #161616; direction: ltr; letter-spacing: .3px; text-align: center; box-sizing: inherit; vertical-align: baseline; font:inherit;border:0; margin:0;">
+        <h1 class="tool__header__title">WORD to PDF Converter</h1>
+        <h2 class="tool__header__subtitle">Convert your WORD to PDF documents with incredible accuracy.<br> Powered by Mohamed Hassan</h2>
+    </div>
+   
+    <div id="uploader" class="uploader__btn tooltip--left active">
+        <form asp-controller="Home" asp-action="Index" method="post" enctype="multipart/form-data" class="form-group">
+            <input asp-for="document" type="file" style="opacity:1;" class="form-control" />
+            <br />
+            <button id="convert" type="submit" style="opacity:1; height:30px; width:220px;border-radius:5px" >Convert</button>
+        </form>
+    </div>
+    <br />
+    <button class="accept-policy" id="download" style="margin-left:650px; opacity:1; height:40px; width:220px;border-radius:5px;"> <a href="~/@ViewBag.loctaion">DownLoad</a></button>
+</body>
+
+</html>
